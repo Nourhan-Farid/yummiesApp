@@ -1,0 +1,19 @@
+@keyframes shimmer {
+    100% {
+        transform: translateX(350%);
+        -webkit-transform: translateX(350%);
+        -moz-transform: translateX(350%);
+        -ms-transform: translateX(350%);
+        -o-transform: translateX(350%);
+}
+}
+
+.animateShimmer {
+    transform: translateX(-250%);
+    -webkit-transform: translateX(-250%);
+    -moz-transform: translateX(-250%);
+    -ms-transform: translateX(-250%);
+    -o-transform: translateX(-250%);
+    animation: shimmer 1.5s infinite;
+    -webkit-animation: shimmer 1.5s infinite;
+}
