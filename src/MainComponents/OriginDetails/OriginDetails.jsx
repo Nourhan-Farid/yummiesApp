@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import { ChevronsRight, MapPin, Sparkles } from 'lucide-react';
 
 export default function OriginDetails() {
-    let originName = window.location.pathname.split('/')[3];
+    let originName = window.location.pathname.split('/')[2];
     let idOrigin = originName.toLowerCase();
     idOrigin = idOrigin.replace(/%20/g, ' ');
     console.log(idOrigin);

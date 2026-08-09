@@ -6,7 +6,7 @@ import ScrollingUpIcon from '../ScrollingUpIcon/ScrollingUpIcon';
 import GoBackBtn from '../GoBackBtn/GoBackBtn';
 
 export default function MealsDetails() {
-    let idMeal = window.location.pathname.split('/')[3];
+    let idMeal = window.location.pathname.split('/')[2];
     // console.log(idMeal);
 
     const { data: meals = [], isLoading, error } = useQuery({

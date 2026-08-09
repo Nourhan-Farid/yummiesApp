@@ -9,7 +9,7 @@ import ScrollingUpIcon from '../ScrollingUpIcon/ScrollingUpIcon';
 
 export default function CategoriesDetails() {
 
-  let idCategory = window.location.pathname.split('/')[3];
+  let idCategory = window.location.pathname.split('/')[2];
   console.log(idCategory);
 
 

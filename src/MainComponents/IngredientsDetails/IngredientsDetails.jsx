@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 
 export default function IngredientsDetails() {
-    const ingredientName = window.location.pathname.split('/')[3];
+    const ingredientName = window.location.pathname.split('/')[2];
     const nameIngredient = ingredientName.replace(/%20/g, ' ');
     // console.log(nameIngredient);
     // console.log(ingredientName);

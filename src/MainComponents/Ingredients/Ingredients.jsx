@@ -9,7 +9,7 @@ import { Sparkles } from 'lucide-react';
 
 export default function Ingredients() {
 
-    let idOrigin = window.location.pathname.split('/')[3];
+    let idOrigin = window.location.pathname.split('/')[2];
     // console.log(idMeal);
 
     const { data: meals = [], isLoading, error } = useQuery({

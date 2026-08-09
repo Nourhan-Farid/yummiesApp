@@ -10,7 +10,7 @@ import { Helmet } from 'react-helmet';
 
 
 export default function Origin() {
-    let idOrigin = window.location.pathname.split('/')[3];
+    let idOrigin = window.location.pathname.split('/')[2];
 
     async function countriesFlagsApiFn() {
         const apiCountries = await axios.get(`https://countriesnow.space/api/v0.1/countries/flag/images`);
